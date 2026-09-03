@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dt11qcnvno70k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j4cba"]
+
+[node name="Node" type="Node" unique_id=504089156]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1187570287]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=2139673858]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1457434142]
+position = Vector2(162, 176)
+shape = SubResource("RectangleShape2D_j4cba")
