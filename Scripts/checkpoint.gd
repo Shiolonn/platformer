@@ -14,4 +14,8 @@ func _process(_delta: float) -> void:
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("Player"):
+		print("CHECKPOINT:", global_position)
+		print("RESPAWN POINT:", $RespawnPoint.global_position)
+
 		checkpoint_manager.last_location = $RespawnPoint.global_position
+		print("SAVED:", checkpoint_manager.last_location)

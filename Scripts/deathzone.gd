@@ -21,3 +21,5 @@ func _on_body_entered(body: Node2D) -> void:
 func killPlayer():
 	print("revive")
 	player.global_position = checkpoint_manager.last_location
+	
+	print("PLAYER BODY:", player.global_position)
